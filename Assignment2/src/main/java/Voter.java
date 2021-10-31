@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Voter extends User {
 	
-	private String password;
+	private int password;
 	private List<String> sessionsVoted;
 	
 	public List<String> getSessionsVoted() {

@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Admin extends User {
 	
-	private String password;
+	private int password;
 	private List<String> currentSessionsOwned;
 	private List<String> oldsessionsOwned;
 	

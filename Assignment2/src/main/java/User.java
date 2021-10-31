@@ -2,13 +2,13 @@ import java.util.Date;
 
 public class User {
 	
-	protected String id;
+	protected int id;
 	protected String name;
 	protected String surname;
 	protected String residence;
 	protected Date birthday;
 	
-	public String getId() {
+	public int getId() {
 		return this.id;
 	}
 	
