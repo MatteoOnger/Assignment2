@@ -7,10 +7,10 @@ public class Admin extends User {
 	private List<String> oldsessionsOwned;
 	
 	public List<String> getCurrentSessionsOwned() {
-		return currentSessionsOwned;
+		return this.currentSessionsOwned;
 	}
 	
 	public List<String> getOldsessionsOwned() {
-		return oldsessionsOwned;
+		return this.oldsessionsOwned;
 	}
 }
